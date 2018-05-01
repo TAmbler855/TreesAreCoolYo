@@ -4,6 +4,14 @@
 
 */
 
-body{
-    
+nav{
+    background-color: rgb(153, 112, 72);
+}
+
+nav a{
+    color: lightgreen;
+}
+
+nav a:hover{
+    color;
 }
