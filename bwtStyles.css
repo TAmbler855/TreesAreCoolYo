@@ -3,9 +3,12 @@
 
 
 */
+body{
+    background-color: rgb(87, 64, 42); 
+}
 
 nav{
-    background-color: rgb(153, 112, 72);
+    background-color: rgb(36, 89, 48);
 }
 
 nav a{
@@ -13,5 +16,5 @@ nav a{
 }
 
 nav a:hover{
-    color;
+    color: rgba(121, 237, 69, 0.69);
 }
