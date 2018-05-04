@@ -5,5 +5,32 @@
 */
 
 body{
+    background-color: rgba(87, 64, 42, 0.90); 
+
+}
+/* div.container{
+    background-color: rgba(87, 64, 42, 0.90);
+} */
+/* html{
+    background-image: url("It'sBatmanYo.jpg")
+} */
+nav{
+    background-color: rgba(36, 89, 48, .80);
+    border-bottom: 4px inset lightgreen;
+    margin-bottom: 10%;
+}
+nav.navbar{
+    background-color: rgba(36, 89, 48, .80);
+    border: 0px;
+    border-bottom: 4px inset lightgreen;
     
+}
+nav a{
+    color: lightgreen;
+}
+nav a:hover{
+    color: rgba(121, 237, 69, 0.69);
+}
+.nav > li > a:hover{
+    background-color: rgb(40, 51, 42);
 }
