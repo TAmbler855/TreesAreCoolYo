@@ -16,7 +16,7 @@ body{
 nav{
     background-color: rgba(36, 89, 48, .80);
     border-bottom: 4px inset lightgreen;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 nav.navbar{
     background-color: rgba(36, 89, 48, .80);
