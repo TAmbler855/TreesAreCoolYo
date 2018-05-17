@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles2.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="bwtScript.js"></script>
-    <title>Document</title>
+    <title>A Breeze With Trees</title>
 </head>
 <body>
         <header id="aboutScreen" class="header">
@@ -52,29 +52,78 @@
 
 
     <div class="container">
+        <div class="row">
+                <div class="col-sm-12 col-lg-6">
     <form action="contact.html" method="post">
+        
+        <div class="holder">
+            <h2 id="contact">Message Us Here</h2>
             <fieldset>
-              <label for="firstName">Name</label>
+                <div class="section">
+              <label for="firstName">Name:</label>
+              <!-- <div class="row"> -->
               <input type="text" name="firstName" placeholder="First Name" id="firstName" class="textInput"required>
               <input type="text" name="lastName" placeholder="Last Name" id="lastName" class="textInput" required>
+            <!-- </div> -->
+            </div>
             </fieldset>
             <br>
             <fieldset>
-              <label for="email">Email Address</label>
+                <div class="section">
+              <label for="email">Email Address:</label>
               <input type="email" name="email" placeholder="example@example.com" id="email" class="textInput" required>
+            </div>
             </fieldset>
             <br>
             <fieldset>
-              <label for="message">Message</label>
+                <div class="section">
+              <label for="message">Message:</label>
               <br>
-              <textarea name="message" rows="8" cols="80" placeholder="Type your message here" class="textInput" required></textarea>
+              <textarea name="message" rows="8" placeholder="Type your message here" class="textInput" required id="message"></textarea>
+            </div>
             </fieldset>
             <br>
             <div id="buttons">
+                <div class="section">
               <input type="submit" name="submit" value="Submit" id="submit">
               <input type="reset" name="reset" value="Reset">
             </div>
+            </div>
+        </div>
+    
           </form>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+                <div class="holder">
+                    <h2 id="contact">Or Contact Us Directly</h2>
+                    <div class="section">
+                    <div class="sectionHeading">    
+                    <h2>Location:</h2>
+                </div>
+                    <div class="address"><em>&diam; 5405 N 99th Ave &diam;<br>
+                        &diam; Glendale, Arizona 85305 &diam;</em>
+                    </div>
+                </div>
+                    <div class="section">
+                            <div class="sectionHeading">    
+                                    <h2>TelePhone:</h2>
+                            </div>
+                            <div class="address"><em><a href="tel:623-531-8008">623-531-8008</a></em>
+                            </div>
+                    </div>
+                    <div class="section">
+                            <div class="sectionHeading">    
+                                    <h2>Email:</h2>
+                            </div>
+                            <div class="address"><em><a href="mailto:ABreezeWithTrees@gmail.com">ABreezeWithTrees@gmail.com</a></em>
+                            </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+ 
+           
+
     </div>
     <!-- <div class="container">
         <aside>First way to contact us</aside>

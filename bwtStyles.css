@@ -92,8 +92,8 @@ nav a:hover{
     margin: 2%;
     border-radius: 10px;
 }
-figure img{
-    width: 90%;
+figure img#affect{
+    width: 80%;
     height: 90%;
     border-radius: 10%;
     box-shadow: 10px 2px 15px black;
@@ -119,6 +119,16 @@ figure figcaption{
 #pageDown{
     height: 26px;
     width: 40px;
+}
+#prevImg{
+    height: 26px;
+    width: 40px;
+    transform: rotate(90deg)
+}
+#nextImg{
+    height: 26px;
+    width: 40px;
+    transform: rotate(270deg)
 }
 header#startScreen{
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .5)), url(tREEEEE.jpg);
@@ -162,4 +172,33 @@ footer{
 footer img{
     width: 60px;
     height: 60px;
+}
+#message{
+    width: 90%;
+}
+label{
+    font-size: 1.5em;
+    color: white;
+}
+.holder h2#contact{
+    padding: 3%;
+    background-color: rgba(0, 20, 0, .60);
+    background: linear-gradient(-180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .9));
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 10px 2px 15px black;
+    text-shadow: 10px 2px 15px black;
+    color: white
+}
+.address{
+    color: white;
+    text-align: center;
+    font-size: 1.3em
+}
+
+.address a{
+    color: white
+}
+#middle{
+    margin: auto;
 }
